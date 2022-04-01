@@ -27,8 +27,8 @@
                 <em class="h4 mb-2"> <b-icon icon="person-fill"></b-icon> </em>
             </template>
             <b-dropdown-item @click="signIn()" v-if="!this.isActiveSession">Sign In</b-dropdown-item>
-            <b-dropdown-item @click="signOut()" v-if="this.isActiveSession">Sign Out</b-dropdown-item>
             <b-dropdown-item  href="#"> {{activeUser}} </b-dropdown-item>
+            <b-dropdown-item @click="signOut()" v-if="this.isActiveSession">Sign Out</b-dropdown-item>
             </b-nav-item-dropdown>
         </b-navbar-nav>
         </b-collapse>

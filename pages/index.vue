@@ -2,9 +2,9 @@
   <div>
     <Header/>
     <!-- <Tutorial/> -->
-
-      <h1> cNT </h1>
-      <b-icon-arrow-up></b-icon-arrow-up>
+      <ProfileCard />
+      <ProfileCard />
+      <ProfileCard />
     
     <Footer />
   </div>
